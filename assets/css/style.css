@@ -1,6 +1,6 @@
 /*
 -----------------------------------------------------------------------------
-General
+General Formatting / Global
 -----------------------------------------------------------------------------
 */
 * {
@@ -53,27 +53,41 @@ nav a {
     text-decoration: none;   
     display: inline-block;
     margin-left: 25px;
+    clear: both;
 }
-
 
 /*
 -----------------------------------------------------------------------------
-Main Content
+Banner Image
 -----------------------------------------------------------------------------
 */
-section {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
-.bannerImage {
+/*
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+*/
+
+figure img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/*
+-----------------------------------------------------------------------------
+Main Content - Container for Articles
+-----------------------------------------------------------------------------
+*/
+
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 /*
@@ -109,6 +123,7 @@ article h2 {
     float: right;
     margin-left: 25px;
 }
+
 /*
 -----------------------------------------------------------------------------
 Benefits Sidebar
@@ -144,6 +159,11 @@ aside p {
 
 }
 
+/*
+-----------------------------------------------------------------------------
+Footer: Message and Copright Information
+-----------------------------------------------------------------------------
+*/
 
 footer {
     padding: 30px;
